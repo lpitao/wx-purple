@@ -1,0 +1,47 @@
+<!--pages/a/a.wxml-->
+<view class='btn_green_content'>
+    <dialog id='dialog' 
+      title='我是标题' 
+      content='恭喜你，学会了小程序组件' 
+      cancelText='知道了' 
+      confirm='谢谢你'
+      bind:cancelEvent="_cancelEvent"  
+      bind:confirmEvent="_confirmEvent">
+    </dialog>
+    
+    <button type="primary" bindtap="showDialog" class='btn_green'> Click! </button>
+</view>
+
+<view class='body'>
+  <swiper indicator-dots='true' autoplay interval="5000" duration='500' circular='true'>
+    <block wx:for="{{imgUrls}}">
+        <swiper-item>
+            <image src='{{item}}'/>
+        </swiper-item>
+    </block>
+  </swiper>
+  <view class='nav'>
+      <block wx:for="{{nav}}">
+        <navigator url='aa' hover-class="navigator-hover">
+            <view class='{{item.imgs}}'>
+              <image src='{{item.imgUrls}}'/>
+            </view>
+            <text>{{item.navList}}</text>
+        </navigator>
+      </block>
+  </view>
+  <template name="msgItem">
+    <view class='con'>
+        <view class='conImg'>
+          <image src='{{img}}'/>
+        </view>
+        <view class='txt'>
+          <view class='h1'>hahahhahahahhahahah啊哈哈哈哈</view>
+          <text>hahahhahahah啊哈哈哈哈hahahhahahah啊哈哈哈哈hahahhahahah啊哈哈哈哈hahahhahahah啊哈哈哈哈</text>
+        </view>
+    </view>
+    <view class='m20'></view>
+  </template>
+  <template is="msgItem" data="{{...msgItem}}"></template>
+  <template is="msgItem" data="{{...msgItem2}}"></template>
+</view>

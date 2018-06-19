@@ -1,0 +1,40 @@
+{
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#9D31FF",
+    "navigationBarTitleText": "Hi",
+    "backgroundColor": "#9D31FF",
+    "navigationBarTextStyle": "#fff"
+  },
+  "pages": [
+    "pages/a/a",
+    "pages/b/b",
+    "pages/c/c",
+    "components/dialog/dialog",
+    "pages/log/log"
+  ],
+  "tabBar": {
+    "color": "#fff",
+    "backgroundColor": "#9D31FF",
+    "list": [
+      {
+        "iconPath": "images/Toaster.png",
+        "selectedIconPath": "images/Toaster2.png",
+        "pagePath": "pages/a/a",
+        "text": "A"
+      },
+      {
+        "selectedIconPath": "images/面包2.png",
+        "iconPath": "images/面包.png",
+        "pagePath": "pages/b/b",
+        "text": "B"
+      },
+      {
+        "selectedIconPath": "images/面包 bread2.png",
+        "iconPath": "images/面包 bread.png",
+        "pagePath": "pages/c/c",
+        "text": "C"
+      }
+    ]
+  }
+}

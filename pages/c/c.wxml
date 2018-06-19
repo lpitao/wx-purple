@@ -1,0 +1,26 @@
+<!--pages/c/c.wxml-->
+<!-- <view class="userinfo">
+  <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+  <block wx:else>
+    <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </block>
+</view> -->
+
+<view class='ul'>
+    <view class='m20'></view>
+    <view class='li'>
+       购物车 
+      <text class='gwc'>1</text>
+    </view>
+
+    <view class='m20'></view>
+    <view class='li'>
+      我的会员卡
+      <text class='jia'></text>
+    </view>
+    <view class='li'>
+      我的积分
+      <text class='jia'></text>
+    </view>
+</view>
