@@ -1,0 +1,14 @@
+<!--pages/d/d.wxml-->
+<view wx:if="{{hihi}}" class='hio'>
+    <image src='../../images/21.jpg'></image>
+      <view>
+          <text bindtap='change'>更换</text>
+      </view>
+</view>
+<view wx:if="{{!hihi}}"  class='hit'>
+      <image src='../../images/22.jpg'></image>
+      <view>
+          <text bindtap='return'>return</text>
+      </view >
+</view>
+

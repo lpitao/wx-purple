@@ -1,0 +1,25 @@
+/* pages/d/d.wxss */
+.hio{
+  width: 100%;
+  text-align: center
+}
+.hit{
+  width: 100%;
+  text-align: center
+}
+.hio image,.hit image{
+  width: 100%;
+}
+
+.hio text,.hit text{
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 32rpx;
+}
+.hio text{
+  color:#F3B054;
+}
+.hit text{
+  color:#FBAC7B;
+}

@@ -43,10 +43,10 @@
   margin-right: 40rpx;
 }
 .jia{
-  width:25rpx;
-  height:25rpx;
+  width:20rpx;
+  height:20rpx;
   border-right: 2rpx solid #98A1AA;
   border-bottom: 2rpx solid #98A1AA;
   transform: rotate(-45deg);
-  margin-right: 45rpx;
+  margin-right: 50rpx;
 }

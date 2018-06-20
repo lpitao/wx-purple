@@ -35,6 +35,12 @@ Page({
       }
     ],
   },
+  /* 打开详情页面 */
+  onNewItem: function (event) {
+    wx.navigateTo({
+      url: "../detail/index"
+    })
+  },
   //勾选事件处理函数  
   switchSelect: function (e) {
     // 获取item项的id，和数组的下标值  

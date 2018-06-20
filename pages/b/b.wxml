@@ -3,7 +3,7 @@
   
     <image class="item-select" bindtap="switchSelect" data-index="{{index}}" data-id="{{index}}" src="{{item.isSelect?'../../images/yq (2).png':'../../images/yq (1).png'}}" />
 
-    <image class="item-image" src="{{item.pic}}"/>
+    <image class="item-image" src="{{item.pic}}" bindtap='onNewItem'/>
 
     <view class="column">
       <text class="title">{{item.name}}</text>

@@ -11,7 +11,9 @@
     "pages/b/b",
     "pages/c/c",
     "components/dialog/dialog",
-    "pages/log/log"
+    "pages/log/log",
+    "pages/detail/index",
+    "pages/d/d"
   ],
   "tabBar": {
     "color": "#fff",
@@ -34,6 +36,12 @@
         "iconPath": "images/面包 bread.png",
         "pagePath": "pages/c/c",
         "text": "C"
+      },
+      {
+        "selectedIconPath": "images/bg2.png",
+        "iconPath": "images/bg.png",
+        "pagePath": "pages/d/d",
+        "text": "D"
       }
     ]
   }
